@@ -163,3 +163,9 @@ def conversion():
                 Ne = 5315/num1
                 Nm = 9000/num1
                  
+         if st.button("Calculate result"):
+
+            st.write("##### in English count (Ne) = ",Ne,"Ne")
+            st.write("##### in Metric count (Nm) = ",Nm,"Nm")
+            st.write("##### in Tex = ",Tex,"tex")
+            st.write("##### in Denier = ",Denier,"Denier")
