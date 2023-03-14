@@ -142,7 +142,7 @@ def conversion():
         if A3 == "English count (Ne)":
                 Ne = num1
                 Nm = num1/0.5905
-                Tex = 590.5/num1
+                Tex = 1000/Nm
                 Denier = 0.5315/num1
                 
         if A3 == "Metric count (Nm)":
