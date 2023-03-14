@@ -98,9 +98,30 @@ def conversion():
         # input 1       
         num1 = st.number_input(label="Enter Weight")
 
-        A2 = st.selectbox('Weight Unit',options=("Pound","Kilogram","Miligram","Gegameter"))
+        A2 = st.selectbox('Weight Unit',options=("Kilogram","Miligram","Gram","Pound",))
         
+        if A2 == "Kilogram":
+                kg = num1
+                mg = num1*1000000
+                g = num1*1000
+                pound = num1*2.20462
+               
+        if A2 == "Miligram":
+                mg = num1
+                kg = num1*
+                g = num1*
+                pound = num1*
+                
+        if A2 == "Gram":
+                g = num1
+                kg = num1*0.001
+                mg = num1*1000
+                pound = num1*0.00220462
+                
         if A2 == "Pound":
-                pb 
+                pound = num1
+                kg = num1*0.453592
+                mg = num1*453592
+                g = num1*453.592
 
          
