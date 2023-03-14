@@ -125,5 +125,5 @@ def conversion():
             st.write("##### in Kilogram = ",kg,"kg")
             st.write("##### in Miligram = ",mg,"mg")
             st.write("##### in Gram = ",g,"g")
-            st.write("##### in Pound = ",£,"£")
+            
             
