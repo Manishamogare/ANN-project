@@ -98,6 +98,9 @@ def conversion():
         # input 1       
         num1 = st.number_input(label="Enter Weight")
 
-        A2 = st.selectbox('Weight Unit',options=("Kilometer","Meter","Centimeter","Milimeter","Yard","Foot","Inch"))
+        A2 = st.selectbox('Weight Unit',options=("Pound","Kilogram","Miligram","Gegameter"))
+        
+        if A2 == "Pound":
+                pb 
 
          
