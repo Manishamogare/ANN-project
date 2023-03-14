@@ -5,7 +5,7 @@ import time
 def conversion():
         
     #  select measurement
-    A = st.selectbox('Measurement unit for conversion',options=("Select","Length","Weight"))
+    A = st.selectbox('Measurement unit for conversion',options=("Select","Length","Weight","Yarn Count"))
 
     if A == "Length":
         # input 1       
