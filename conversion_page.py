@@ -106,7 +106,11 @@ def conversion():
                 g = num1*1000
                 pound = num1*2.20462
                
-                
+        if A2 == "Miligram":
+                mg = num1
+                kg = num1*0.000001
+                g = num1*0.001
+                pound = num1*0.0000022046
         if A2 == "Gram":
                 g = num
                 kg = num1*0.001
@@ -125,5 +129,6 @@ def conversion():
             st.write("##### in Kilogram = ",kg,"kg")
             st.write("##### in Miligram = ",mg,"mg")
             st.write("##### in Gram = ",g,"g")
+            st.write("##### in Pound = ",pound,"lb")
             
             
