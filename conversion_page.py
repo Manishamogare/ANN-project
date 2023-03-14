@@ -140,10 +140,13 @@ def conversion():
         A3 = st.selectbox('Weight Unit',options=("English count (Ne)","Metric count (Nm)","Tex","Denier"))
         
         if A3 == "English count (Ne)":
-                Ne = num1
-                Nm = num1/0.5905
-                Tex = 1000/Nm
-                Denier = 0.5315/num1
+                if num1 !=0:
+                        Ne = num1
+                        Nm = num1/0.5905
+                        Tex = 1000/Nm
+                        Denier = 0.5315/num1
+                        
+        
                 
         if A3 == "Metric count (Nm)":
                 Nm = num1
