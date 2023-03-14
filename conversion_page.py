@@ -130,5 +130,36 @@ def conversion():
             st.write("##### in Miligram = ",mg,"mg")
             st.write("##### in Gram = ",g,"g")
             st.write("##### in Pound = ",pound,"lb")
-            
-            
+      
+
+     if A == "Yarn Count":
+                
+        # input 1       
+        num1 = st.number_input(label="Enter Yarn Count")
+
+        A3 = st.selectbox('Weight Unit',options=("English count (Ne)","Metric count (Nm)","Tex","Denier"))
+        
+        if A3 == "English count (Ne)":
+                Ne = num1
+                Nm = num1/0.5905
+                Tex = 590.5/num1
+                Denier = 0.5315/num1
+                
+        if A3 == "Metric count (Nm)":
+                Nm = num1
+                Ne = num1*0.5905
+                Tex = 1000/Nm
+                Denier = 9000/nm
+                
+        if A3 == "Tex":
+                Tex = num1
+                Ne = 590.6/num1
+                Nm = 1000/num1
+                Denier = 9*num1
+                
+        if A3 == "Denier":
+                Denier = num1
+                Tex = num1/9
+                Ne = 5315/num1
+                Nm = 9000/num1
+                 
