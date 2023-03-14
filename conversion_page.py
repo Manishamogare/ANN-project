@@ -125,3 +125,10 @@ def conversion():
                 g = num1*453.592
 
          
+         if st.button("Calculate result"):
+
+            st.write("##### in Kilogram = ",kg,"kg")
+            st.write("##### in Miligram = ",mg,"mg")
+            st.write("##### in Gram = ",g,"g")
+            st.write("##### in Pound = ",£,"£")
+            
