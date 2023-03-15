@@ -171,7 +171,7 @@ def conversion():
                  
         if st.button("Calculate result"):
 
-            st.write("##### in English count (Ne) = ",English count,"Ne")
-            st.write("##### in Metric count (Nm) = ",Metric count,"Nm")
+            st.write("##### in English count (Ne) = ",Ne,"Ne")
+            st.write("##### in Metric count (Nm) = ",Nm,"Nm")
             st.write("##### in Tex = ",Tex,"tex")
             st.write("##### in Denier = ",Denier,"Denier")
