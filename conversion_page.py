@@ -153,7 +153,7 @@ def conversion():
                         Nm = num1
                         Ne = num1*0.5905
                         Tex = 1000/Nm
-                        Denier = 9000/nm
+                        Denier = 9000/Nm
                 
         if A3 == "Tex":
                 if num1 !=0:
