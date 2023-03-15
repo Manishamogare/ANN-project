@@ -149,22 +149,25 @@ def conversion():
         
                 
         if A3 == "Metric count (Nm)":
-                Nm = num1
-                Ne = num1*0.5905
-                Tex = 1000/Nm
-                Denier = 9000/nm
+                if num1 !=0:
+                        Nm = num1
+                        Ne = num1*0.5905
+                        Tex = 1000/Nm
+                        Denier = 9000/nm
                 
         if A3 == "Tex":
-                Tex = num1
-                Ne = 590.6/num1
-                Nm = 1000/num1
-                Denier = 9*num1
+                if num1 !=0:
+                        Tex = num1
+                        Ne = 590.6/num1
+                        Nm = 1000/num1
+                        Denier = 9*num1
                 
         if A3 == "Denier":
-                Denier = num1
-                Tex = num1/9
-                Ne = 5315/num1
-                Nm = 9000/num1
+                if num1 !=0:
+                        Denier = num1
+                        Tex = num1/9
+                        Ne = 5315/num1
+                        Nm = 9000/num1
                  
         if st.button("Calculate result"):
 
