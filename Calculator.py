@@ -25,6 +25,6 @@ def calculator():
         # creates a horizontal line
         st.write("---")
        
-       yarn_count()
+        yarn_count()
 
         
