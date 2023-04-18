@@ -42,6 +42,8 @@ def show_explore_page():
     
     
     st.title("Fibre Properties :- ")
+    st.text("") 
+    st.text("")
     
     st.write("""### A.   Nominal yarn count : """)
     st.write("""##### - Sometimes it may be slightly finer say 10.2s and sometimes it may be slightly coarser say, 9.8s count. This resulting count will be written as a 10s count. Therefore this count will not be an actual count of yarn. It is called the nominal count of yarn.""")
