@@ -3,7 +3,7 @@ from predict_page import show_predict_page
 from explore_page import show_explore_page
 from graphs_page import show_graphs_page
 from data_page import show_data_page
-from Calculator import calculator
+# from Calculator import calculator
 from ANN_model import show_prediction_page
 
 st.sidebar.title('Explore More')
