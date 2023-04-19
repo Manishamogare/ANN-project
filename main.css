@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    position: relative;
+  
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    box-shadow:  9px 8px 9px rgba(0,0,0,0.6)
+}
+.navbar img{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: -200px;
+    width: 120px;
+    height: 60px;
+}
+
+.navbar h3{
+    font-family: 'Kalam', cursive;
+    /* font-family: Source Sans Pro,Arial,sans-serif;  */
+    font-size: 15px;
+    width: 100%;
+    /* margin: auto; */
+} 
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* popup code  */
+.navbar{
+    width: 95%;
+    margin: auto;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    
+}
+.nav-menu li{
+    position: relative;
+}
+.nav-menu li:hover .submenu{
+    opacity: 1;
+    cursor: pointer;
+}
+.submenu{
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    color: #000000;
+    top: 145%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.submenu li{
+   padding: 5px 0px 5px 10px;
+   font-size: 15px;
+   transition: 0.5s ease-out;
+}
+.submenu li:hover{
+    border-left: 5px solid hsla(197, 82%, 50%, 0.6);
+    background-color: rgb(121, 189, 216,0.7);
+}
+.font-page{
+    /* width: 88vw; */
+    height: 100vh;
+    padding: 10px 0px;
+    background-image: url("ANN\ network.gif");
+    background-position: center;
+    background-size: cover;
+     
+
+}
+.container{
+  margin-top: 15%;
+}
+#head1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Kalam', cursive;
+    /* padding: 2px 0px; */
+} 
+
+#para1{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    padding: 110px 10px;
+    /* margin-left: 100px; */
+}
+#btn{
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    padding: 5px 50px;
+    border-radius: 5px;
+    margin: 50px 0px 0px 100px;
+     
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+/* section about  */
+.about, .research, .procedure{
+    height: 70vh;
+}
+ 
+.about-container, .research-container, .procedure-container{
+    /* margin-top: 7%; */
+}
+.about-head h1, .research-head h1, .pro-head h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Kalam', cursive;
+  padding: 5px 20px;
+  color: white;
+}
+.about-head h2, .research-head h1, .pro-head h1{
+    margin-top: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+    padding: 5px 20px;
+    color: black;
+  }
+/* .about-head h1:hover,.research-head h1:hover, .pro-head h1:hover {
+  border-bottom: 5px solid skyblue;
+  width: 50%;
+  cursor: pointer;
+} */
+.about-para, .research-para, .pro-head{
+    padding: 30px 0px;
+}
+.about-para p, .research-para p{
+    font-size: 25px;
+    width: 900px;
+    margin: auto;
+    line-height: 30px;
+    height: 300px;
+}
+
+/* sub-section introduction  */
+.research-head1 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+    padding: 5px 20px;
+    color: white;
+}
+.introduction, .research-merits,.need, .howANN-works, .input,.about{
+    height: 70vh;
+}
+.architecture{
+    height: 100vh;
+}
+.research-ann{
+    height: 70vh;
+}
+.design-method{
+    height: 150vh;
+}
+.intro-container, .need-container, .research-ann-container, .research-merits-container, .howANN-works-container, .input-container, .archi-container, .design-method-container{
+    margin-top: 10%;
+}
+.intro-head h2, .need-head h1,.research-head1 h1, .merits-head h1, .works-head h1, .input-head h3, .archite-head h1,.design-head h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    padding: 5px 20px;
+    margin-top: 50px;
+}
+.intro-head, .need-head, .research-head, .merits-head, .works-head, .input-head, .archite-head, .design-head{
+    padding: 30px 0px;
+}
+.intro-para p, .need-para p, .research-para p, .merits-para p, .works-para p, .design-para p{
+    font-size: 25px;
+    width: 900px;
+    margin: auto;
+    line-height: 30px;
+    height: 300px;
+}
+.archite-para p{
+    font-size: 25px;
+    width: 800px;
+    margin: auto;
+    line-height: 30px;
+    height: 100px;
+}
+.table{
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+.table2{
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+table{
+    width: 1000px;
+    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+}
+table,td,th{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px;
+}
+th{
+    background-color: skyblue;
+}
+.input-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+#image1, #image2{
+    width: auto;
+    margin: auto;
+}
+.input-1 p{
+    font-size: 15px;
+    padding: 20px;
+    width: auto;
+    margin: auto;
+}
+.data-sample h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
+.data-sample img{
+    width: auto;
+    padding: 10px 20%;
+}
+.para1{
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.pro-para h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+    padding: 5px 20px;
+}
+@media only screen and (max-width:800px ){
+    .navbar{
+        width: 100%;
+        font-size: 14px;
+    }
+    .logo h3{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
